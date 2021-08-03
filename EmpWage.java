@@ -5,10 +5,10 @@ public class EmpWage {
 			System.out.println("Welcome to the employee wage program");  
 			
 			    int IS_FULL_TIME = 1;
-		        int IS_PART_TIME = 2;
-			    int dailyWage;
-			    int wagePerHour = 20;
-			    int workingHour;
+		       	    int IS_PART_TIME = 2;
+			    int EMP_RATE_PER_HOUR = 20;
+		 	    int empWage = 0;
+			    int workingHour = 0;
 				int empCheck = (int)(Math.floor(Math.random() * 10)) % 3;
 				if( empCheck == IS_FULL_TIME)
 				{
@@ -26,7 +26,7 @@ public class EmpWage {
 					workingHour = 0;
 				}
 				
-				dailyWage = workingHour * wagePerHour;
-				System.out.println("Employee daily wage is " + dailyWage);
+				empWage = workingHour * EMP_RATE_PER_HOUR ;
+				System.out.println("Employee daily wage is " + empWage);
 	}
 }
