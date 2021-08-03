@@ -5,7 +5,7 @@ public class EmpWage {
 			System.out.println("Welcome to the employee wage program");  
 			
 			    int IS_FULL_TIME = 1;
-		        int IS_PART_TIME = 2;
+		       	    int IS_PART_TIME = 2;
 			    int dailyWage;
 			    int wagePerHour = 20;
 			    int workingHour;
